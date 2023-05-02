@@ -1014,14 +1014,34 @@ const data = {
 
 // 1.- Mostrar la cantidad total de cauldrons
 
-export function cantidad()
+function cantidadTotal()
 {
-    console.log(data);
+    console.log("La cantidad total de los cauldrons es: " + data.cauldrons);
 }
 
-// 2- Mostrar la cantidad de cauldrons separados por temporada
+// 2- Mostrar la cantidad de cauldrons separados por temporada  
 
-// 3.- Mostrar los Cauldrons rotos separados por temporada
+function cantidadTotalWinter()
+{
+    console.log("La cantidad total de los cauldrons en la temporada Winter son: " + data.cauldrons.winter_seasson);
+}
+
+function cantidadTotalSummer()
+{
+    console.log("La cantidad total de los cauldrons en la temporada Summer son: " + data.cauldrons.summer_seasson);
+}
+
+function cantidadTotalSpring()
+{
+    console.log("La cantidad total de los cauldrons es: " + data.cauldrons.spring_seasson);
+}
+
+function cantidadTotalAutumn()
+{
+    console.log("La cantidad total de los cauldrons es: " + data.cauldrons.autumn_seasson);
+}
+
+// 3.- Mostrar el numero de Cauldrons rotos separados por temporada
 
 // 4.- Mostrar el color de los cauldron con magic_description "Naproxen"
 
